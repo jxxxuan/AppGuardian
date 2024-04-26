@@ -1,0 +1,74 @@
+﻿/* sidebar.module.css */
+.sidebar {
+    width: 220px;
+    background-color: #333;
+    color: black;
+}
+
+.content {
+    margin-left: 250px; /* Adjust the margin to match the sidebar width */
+    padding: 20px;
+}
+
+.logo {
+    text-align: center;
+    padding: 20px 0;
+}
+
+    .logo img {
+        width: 80px;
+        height: 80px;
+        border-radius: 50%;
+    }
+
+/* 修复 ul 选择器，添加一个局部类选择器 */
+.sidebar ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+/* 修复 li 选择器，添加一个局部类选择器 */
+.sidebar li {
+    margin: 10px 0;
+}
+
+/* 修复 a 选择器，添加一个局部类选择器 */
+.sidebar a {
+    cursor:pointer;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #fff;
+    padding: 10px 20px;
+    transition: background-color 0.2s ease-in-out;
+}
+
+.sidebar a:hover {
+    background-color: #555;
+}
+
+/* 修复 icon 选择器，添加一个局部类选择器 */
+.sidebar .icon {
+    margin-right: 10px;
+}
+
+/* sidebar.module.css */
+.addProductButton {
+    display: none; /* 初始时隐藏按钮 */
+    align-items: center;
+    justify-content: center;
+    background-color: #0070f3; /* 适应你的设计 */
+    color: #fff; /* 文本颜色 */
+    cursor: pointer;
+    padding: 5px 10px; /* 调整按钮的内边距 */
+    border-radius: 5px; /* 可选：添加边框圆角 */
+}
+
+.productItem:hover .addProductButton {
+    display: flex; /* 当光标悬停在.productItem上时显示按钮 */
+}
+
+/* 可选：添加按钮的其他样式，如悬停样式 */
+.addProductButton:hover {
+    background-color: #0050d2; /* 悬停时的背景颜色 */
+}

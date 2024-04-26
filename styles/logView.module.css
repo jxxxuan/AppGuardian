@@ -1,0 +1,89 @@
+﻿/* logView.module.css */
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+.log_container {
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 4px;
+}
+
+.logTable {
+    margin: 20px 10px;
+    border-spacing: 0;
+    border-collapse: collapse;
+    overflow: hidden;
+}
+
+.logTable th,
+.logTable td {
+    padding: 10px 0;
+    text-align: center;
+    border-bottom: 1px solid black;
+}
+
+.logTable td{
+    font-size: 14px;
+}
+
+.logTable th {
+    background-color: #47acff;
+    font-weight: normal;
+}
+
+.logTable tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+/* required css to make rounded table (below) */
+.logTable tr:first-child th:first-child {
+    border-top-left-radius: 10px;
+}
+
+.logTable tr:first-child th:last-child {
+    border-top-right-radius: 10px;
+}
+
+.logTable tr:last-child td:first-child {
+    border-bottom-left-radius: 10px;
+}
+
+.logTable tr:last-child td:last-child {
+    border-bottom-right-radius: 10px;
+}
+
+.title {
+    font-size: 24px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.loading_text {
+    font-size: 16px;
+    font-style: italic;
+}
+
+.refresh_button {
+    background-color: #0070f3;
+    color: white;
+    margin: 5px 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 80px;
+}
+
+.log_details_container {
+    padding: 20px;
+    height: 100%;
+}
+
+.alert {
+    color: orangered;
+    font-weight:700;
+}
+

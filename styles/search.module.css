@@ -1,0 +1,45 @@
+﻿/* productView.module.css */
+
+.container{
+    padding:10px;
+    height:100%;
+}
+
+.input_option {
+    width: 100%;
+    padding: 10px; 
+    margin-bottom: 20px; 
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+.input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    display:flex;
+}
+
+.input input:focus {
+    outline: none; /* Remove the default focus outline */
+}
+
+.input input{
+    width: 100%;
+}
+
+.result_container {
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 4px;
+}
+
+.alert {
+    color: orangered;
+    font-weight: 700;
+}

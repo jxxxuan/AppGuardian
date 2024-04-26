@@ -1,0 +1,106 @@
+﻿/* productView.module.css */
+
+.container{
+    padding:10px;
+    height:100%;
+}
+
+.title {
+    font-size: 24px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.product_container {
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 4px;
+}
+
+.loading_text {
+    font-size: 16px;
+    font-style: italic;
+}
+
+.action_button {
+    background-color: #0070f3;
+    color: white;
+    margin: 5px 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    padding:0 20px;
+}
+
+.product_edit_form {
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 4px;
+}
+.product_form_item{
+    margin: 10px;
+}
+
+.input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+.input_option {
+    width: 100%;
+    padding: 10px; 
+    margin-bottom: 20px; 
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+.android_platform {
+    background-color: #3DDC84;
+    text-align: center;
+    color: #01612c;
+    font-weight: 600;
+    border: 2px solid #01612c;
+    border-radius: 4px;
+    width: 80px;
+    font-size: 10pt;
+}
+
+.ios_platform {
+    text-align: center;
+    background-color: #88c0fc;
+    color: #02356b;
+    font-weight: 600;
+    border: 2px solid #0a66c9;
+    border-radius: 4px;
+    width: 80px;
+    font-size: 10pt;
+}
+
+.app_name {
+    font-weight: 500;
+    font-size: 35pt;
+    text-decoration: none;
+    color: #0070f3;
+}
+
+.dev_name {
+    font-weight: 500;
+    font-size: 10pt;
+    text-decoration: none;
+    color: #808080;
+}
+
+.dev_email {
+    font-size: 10pt;
+}
+.app_info {
+    font-size: 10pt;
+    color: #808080;
+}
